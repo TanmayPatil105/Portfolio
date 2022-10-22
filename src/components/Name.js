@@ -7,7 +7,7 @@ function Name(props) {
         <p style={{fontSize:props.size2,fontFamily:"'M PLUS Code Latin', sans-serif",color:"#ffffff"}}>
             Hello! 
         </p>
-         I'm Tanmay
+         Tanmay here
       </p>
     </div>
   )
