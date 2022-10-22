@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Name() {
+function Name(props) {
   return (
     <div className="d-inline">
-      <p style={{fontSize:"50px",fontFamily:"'M PLUS Code Latin', sans-serif"}}>
-        <p style={{fontSize:"30px",fontFamily:"'M PLUS Code Latin', sans-serif",color:"#ffffff"}}>
+      <p style={{fontSize:props.size1,fontFamily:"'M PLUS Code Latin', sans-serif"}}>
+        <p style={{fontSize:props.size2,fontFamily:"'M PLUS Code Latin', sans-serif",color:"#ffffff"}}>
             Hello! 
         </p>
          I'm Tanmay

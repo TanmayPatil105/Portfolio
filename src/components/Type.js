@@ -1,9 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function Type(props) {
   return (
-    <div className="text-success my-auto" style={{fontSize:"50px",fontFamily:"'M PLUS Code Latin', sans-serif"}} >
+    <div className="text-success my-auto" style={{fontSize:props.size,fontFamily:"'M PLUS Code Latin', sans-serif"}} >
       <Typewriter
         options={{
           strings: [

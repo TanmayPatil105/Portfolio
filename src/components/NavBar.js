@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import {Link} from 'react-router-dom'
 import props from 'prop-types';
 import logo_lg from '../assets/logo-lg.png'
 import logo_sm from '../assets/logo-sm.png'
@@ -21,16 +22,22 @@ class NavBar extends Component{
       <div>
         <nav className="navbar navbar-light bg-success">
           <form className="container-fluid justify-content-start">
-            {this.state.matches &&  (<><button className="btn btn-lg btn-outline-dark me-2 bg-gradient" type="button">Learning</button>
-            <button className="btn btn-lg btn-outline-dark bg-gradient" type="button">GitHub</button></>)}
-            {!this.state.matches &&  (<><button className="btn btn-sm btn-outline-dark me-2 bg-gradient" type="button">Learning</button>
-            <button className="btn btn-sm btn-outline-dark bg-gradient" type="button">GitHub</button></>)}
+            {this.state.matches &&  (<>
+              <Link to='/' className="btn btn-lg btn-outline-dark me-2 bg-gradient" type="button">Profile</Link>
+              <Link to='/learn' className="btn btn-lg btn-outline-dark me-2 bg-gradient" type="button">Learning</Link>
+              <Link to='/project' className="btn btn-lg btn-outline-dark bg-gradient" type="button">Projects</Link>
+            </>)}
+            {!this.state.matches &&  (<>
+              <Link to='/' className="btn btn-sm btn-outline-dark me-2 bg-gradient" type="button">Profile</Link>
+              <Link to='/learn' className="btn btn-sm btn-outline-dark me-2 bg-gradient" type="button">Learning</Link>
+              <Link to='/project' className="btn btn-sm btn-outline-dark bg-gradient" type="button">Projects</Link>
+            </>)}
         
             {this.state.matches && <div className="mx-auto">
-              <img src={logo_sm} alt="" />
-            </div>}
-            {!this.state.matches && <div className="mx-auto">
               <img src={logo_lg} alt="" />
+            </div>}
+            {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
+              <img src={logo_sm} alt="" style={{width:"50%",height:"50%"}} />
             </div>}
           </form>
         </nav>
