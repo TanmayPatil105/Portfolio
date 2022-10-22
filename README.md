@@ -7,7 +7,7 @@ My personal portfolio <a href="https://txnmxy.netlify.app/" target="_blank">Tanm
 This project was built using these technologies.
 
 - React.js
-- CSS3
+- Bootstrap
 - VsCode
 
 ## Getting Started
