@@ -26,5 +26,3 @@ export default class Card extends PureComponent {
     )
   } 
 }
-
-
