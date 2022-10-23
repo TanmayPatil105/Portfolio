@@ -7,14 +7,13 @@ class Body extends PureComponent {
     constructor() {
         super()
         this.state = { matches: window.matchMedia("(min-width: 768px)").matches };
-      }
+    }
     
-      componentDidMount() {
-        const handler = e => this.setState({matches: e.matches});
-        window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
-      }
+    componentDidMount() {
+    const handler = e => this.setState({matches: e.matches});
+    window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
+    }
 
-     
     render() {
         return (
         <div className='row'>
