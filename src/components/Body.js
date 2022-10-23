@@ -27,9 +27,12 @@ class Body extends PureComponent {
                     <Type size={this.state.matches?"50px":"30px"}/>
                 </div>
             </div>
-            <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"150px"}}>
-                <img src={this.state.matches?code_lg:code_sm} alt="" />
-            </div>
+            {this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"150px"}}>
+                <img src={code_lg} alt="" />
+            </div>}
+            {!this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"50px"}}>
+                <img src={code_lg} alt="" style={{width:"1000px",height:"200px"}} />
+            </div>}
         </div>
         )
     }
