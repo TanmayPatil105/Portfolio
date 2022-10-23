@@ -29,7 +29,7 @@ class Body extends PureComponent {
             {this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"150px"}}>
                 <img src={code_lg} alt="" />
             </div>}
-            {!this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"30px"}}>
+            {!this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"50px"}}>
                 <img src={code_lg} alt="" style={{width:"1000px",height:"200px"}} />
             </div>}
         </div>
