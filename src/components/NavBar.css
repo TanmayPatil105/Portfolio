@@ -1,3 +1,9 @@
-.btn:hover{
+.btn{
     color:#5cb85c;
+    background-color: #282c34;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #282c34;
 }
