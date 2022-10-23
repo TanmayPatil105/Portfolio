@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react'
 import Type from '../components/Type';
 import Name from '../components/Name';
 import code_lg from '../assets/code-lg.png';
-import code_sm from '../assets/code-sm.png';
 
 class Body extends PureComponent {
     constructor() {
