@@ -2,7 +2,6 @@ import React,{Component} from 'react'
 import {Link} from 'react-router-dom'
 import props from 'prop-types';
 import logo_lg from '../assets/logo-lg.png'
-import logo_sm from '../assets/logo-sm.png'
 import './NavBar.css'
 
 
@@ -37,7 +36,7 @@ class NavBar extends Component{
               <img src={logo_lg} alt="" />
             </div>}
             {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
-              <img src={logo_sm} alt="" style={{width:"50%",height:"50%"}} />
+              <img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} />
             </div>}
           </form>
         </nav>
