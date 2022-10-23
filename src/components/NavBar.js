@@ -33,10 +33,10 @@ class NavBar extends Component{
             </>)}
         
             {this.state.matches && <div className="mx-auto">
-              <img src={logo_lg} alt="" />
+              <a href='/'><img src={logo_lg} alt="" /></a>
             </div>}
             {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
-              <img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} />
+             <a href="/"><img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} /></a>
             </div>}
           </form>
         </nav>
