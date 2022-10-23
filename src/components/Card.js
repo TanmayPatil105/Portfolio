@@ -10,6 +10,7 @@ export default class Card extends PureComponent {
     const handler = e => this.setState({matches: e.matches});
     window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
   }
+  
   render(){
     return (
       <div>
