@@ -5,3 +5,9 @@
    width:100%;
    height:100px;   
 }
+
+.zoom-box:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+    /* transform: scale(1); */
+}
