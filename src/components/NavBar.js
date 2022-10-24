@@ -32,7 +32,7 @@ class NavBar extends Component{
               <Link to='/project' className="btn btn-sm btn-outline-dark bg-gradient" type="button">Projects</Link>
             </>)}
         
-            {this.state.matches && <div className="mx-auto">
+            {this.state.matches && <div className="mx-auto zoom">
               <a href='/'><img src={logo_lg} alt="" /></a>
             </div>}
             {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
