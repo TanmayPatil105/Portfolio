@@ -18,6 +18,8 @@ export default class Learn extends PureComponent {
             "alt":"mysql"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/postgresql/original/PostgresqlOriginal.svg",
             "alt":"postgresql"}},
+            {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/docker/original/DockerOriginal.svg",
+            "alt":"docker"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/react/original/ReactOriginal.svg",
             "alt":"react"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/bootstrap/plain/BootstrapPlain.svg",
