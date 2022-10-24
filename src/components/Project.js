@@ -40,7 +40,7 @@ export default class Project extends PureComponent {
                     <Card title={"Resume Maker"} description={"Resume building app using JavaScript"} img={"https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"} link={"https://github.com/TanmayPatil105/Resume-Maker"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"100px"}}>
-                    <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwn6OFTaK4Six4Dwv-GL-4HM8vKn1N4Nfj3w&usqp=CAU"} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
+                    <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={"https://user-images.githubusercontent.com/92677342/197455418-a41d7a88-cf57-4b70-b317-f6f6917d9e1e.png"} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
                 </div>
             </div>
             <br/>
