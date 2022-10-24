@@ -1,4 +1,5 @@
 import React,{PureComponent} from 'react';
+import './Card.css'
 
 export default class Card extends PureComponent {
   constructor(props) {
@@ -14,7 +15,7 @@ export default class Card extends PureComponent {
   render(){
     return (
       <div>
-          <div class="card bg-white" style={{width:this.state.matches?"400px":"250px"}}>
+          <div class="card bg-success bg-gradient text-dark" style={{width:this.state.matches?"400px":"250px"}}>
               {this.state.matches && <img class="card-img-top" src={this.props.img} alt="Language"/> }
               {!this.state.matches && <img class="card-img-top" src={this.props.img} alt="Card" style={{width:"auto",height:"auto"}}/>}
               <div class="card-body">
