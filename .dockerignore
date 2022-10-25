@@ -4,5 +4,3 @@ build
 .git
 *.md
 .gitignore
-README.md
-SECURITY.md
