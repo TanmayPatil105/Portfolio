@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import Card from './Card';
-// import logo from '../assets/languages/';
 
 function importAll(r) {
     let images = {};
