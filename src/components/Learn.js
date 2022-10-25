@@ -1,4 +1,5 @@
 import React, {PureComponent } from 'react'
+import './Learn.css'
 
 export default class Learn extends PureComponent {
 
