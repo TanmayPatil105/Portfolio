@@ -54,7 +54,7 @@ export default class Learn extends PureComponent {
         <div style={{marginBottom:"30px"}}>
              <div className="d-flex justify-content-center align-items-center">
                 <p style={{color:"#5cb85c",fontSize:this.state.matches?"50px":"30px",fontFamily:"'M PLUS Code Latin', sans-serif",marginTop:"50px"}}>
-                    Proffesional SkillSet
+                    Professional SkillSet
                 </p>
              </div>
              <div className="row">
