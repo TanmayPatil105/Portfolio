@@ -60,7 +60,7 @@ export default class Learn extends PureComponent {
              <div className="row">
                 {this.state.urls.map((element)=>{ 
                     return  <div className="col-md-4 d-flex align-items-center justify-content-center row">
-                                <div className=' d-flex align-items-center justify-content-center'style={{width:"100px",height:"100px",marginTop:"20px"}}>
+                                <div className='d-flex align-items-center justify-content-center'style={{width:"100px",height:"100px",marginTop:"20px"}}>
                                     <img src={element.img.url} alt={element.img.alt} title={element.img.alt} style={{width:"80px",height:"80px"}}/>
                                 </div>
                                 {/* <div className='col-md-4 d-flex align-items-center justify-content-center'>
