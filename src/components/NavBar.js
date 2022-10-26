@@ -19,21 +19,21 @@ class NavBar extends Component{
   render(){
     return (
       <div>
-        <nav className="navbar navbar-light bg-success">
+        <nav className="navbar navbar-light bg-success row">
           <form className="container-fluid justify-content-start">
-            {this.state.matches &&  (<>
-              <Link to='/' className="btn btn-lg btn-outline-dark me-2 bg-gradient" type="button">Profile</Link>
-              <Link to='/learn' className="btn btn-lg btn-outline-dark me-2 bg-gradient" type="button">Learning</Link>
-              <Link to='/project' className="btn btn-lg btn-outline-dark bg-gradient" type="button">Projects</Link>
-            </>)}
-            {!this.state.matches &&  (<>
-              <Link to='/' className="btn btn-sm btn-outline-dark me-2 bg-gradient" type="button">Profile</Link>
-              <Link to='/learn' className="btn btn-sm btn-outline-dark me-2 bg-gradient" type="button">Learning</Link>
-              <Link to='/project' className="btn btn-sm btn-outline-dark bg-gradient" type="button">Projects</Link>
-            </>)}
+            {this.state.matches &&  (<div className='col-md-4 mx-3'>
+              <Link to='/' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Profile</Link>
+              <Link to='/learn' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Learning</Link>
+              <Link to='/project' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Projects</Link>
+            </div>)}
+            {!this.state.matches &&  (<div className='mx-1'>
+              <Link to='/' className="btn btn-sm btn-outline-dark me-2 bg-gradient rounded-pill" type="button">Profile</Link>
+              <Link to='/learn' className="btn btn-sm btn-outline-dark me-2 bg-gradient rounded-pill" type="button">Learning</Link>
+              <Link to='/project' className="btn btn-sm btn-outline-dark bg-gradient rounded-pill" type="button">Projects</Link>
+            </div>)}
         
-            {this.state.matches && <div className="mx-auto zoom">
-              <a href='/'><img src={logo_lg} alt="" /></a>
+            {this.state.matches && <div className="col-md-4 zoom d-flex align-items-center justify-content-center">
+              <a href='/'><img src={logo_lg} alt="" /></a> 
             </div>}
             {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
              <a href="/"><img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} /></a>
