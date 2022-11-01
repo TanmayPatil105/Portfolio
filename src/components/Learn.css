@@ -1,3 +1,9 @@
+zoom {
+    -webkit-filter: drop-shadow(1px 1px 0 white) 
+                    drop-shadow(-1px -1px 0 white);
+    filter:drop-shadow(1px 1px 0 white) 
+           drop-shadow(-1px -1px 0 white);
+}
 zoom:hover{
     width: 100px;
     height: 100px;
