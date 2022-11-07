@@ -24,6 +24,8 @@ export default class Learn extends PureComponent {
             "alt":"react"}},
             {"img":{"url":"https://user-images.githubusercontent.com/92677342/199328490-0ee522a9-c3f5-43ef-b7cd-4dbedaa95007.png",
             "alt":"github-actions"}},
+            {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/go/original/GoOriginal.svg",
+            "alt":"go"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/bootstrap/plain/BootstrapPlain.svg",
             "alt":"bootstrap"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/git/original/GitOriginal.svg",
@@ -63,7 +65,7 @@ export default class Learn extends PureComponent {
                 {this.state.urls.map((element)=>{ 
                     return  <div className="col-md-3 d-flex align-items-center justify-content-center row">
                                 <div className='d-flex align-items-center justify-content-center zoom'style={{width:"100px",height:"100px",marginTop:"20px"}}>
-                                    <img src={element.img.url} alt={element.img.alt} title={element.img.alt} style={{width:"80px",height:"80px"}} loading="lazy"/>
+                                    <img src={element.img.url} alt={element.img.alt} title={element.img.alt} style={{width:"80px",height:"80px"}} loading="lazy" className='logo'/>
                                 </div>
                             </div>
                 })}
