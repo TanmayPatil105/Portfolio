@@ -28,6 +28,8 @@ export default class Learn extends PureComponent {
             "alt":"go"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/bootstrap/plain/BootstrapPlain.svg",
             "alt":"bootstrap"}},
+            {"img":{"url":"https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg",
+            "alt":"flask"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/git/original/GitOriginal.svg",
             "alt":"git"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/github/original/GithubOriginal.svg",
