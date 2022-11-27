@@ -28,4 +28,3 @@ The page will reload if you make edits.
 ```
 sudo docker-compose up
 ```
-
