@@ -1,7 +1,15 @@
-FROM node:alpine AS development
-ENV NODE_ENV development
-WORKDIR /react-app
-COPY ./package.json /react-app
-RUN npm install
+FROM node:alpine
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN npm install 
+
+RUN mkdir node_modules/.cache && chmod -R 777 node_modules/.cache
+
 COPY . .
-CMD npm start
+
+EXPOSE 3000
+
+CMD ["npm", "start"] 

@@ -1,8 +1,9 @@
-version: "3.3"
+version: '3.8'
 services:
-  web:
+  portfolio:
     build: .
+    container_name : portfolio
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
-      - .:/code
+      - .:/app
