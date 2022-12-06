@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react'
 import Type from '../components/Type';
 import Name from '../components/Name';
 import code_lg from '../assets/code-lg.png';
+import './Body.css';
 
 class Body extends PureComponent {
     constructor() {
@@ -25,10 +26,10 @@ class Body extends PureComponent {
                     <Type size={this.state.matches?"50px":"30px"}/>
                 </div>
             </div>
-            {this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"150px"}}>
+            {this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center code' style={{paddingTop:"150px"}}>
                 <img src={code_lg} alt="" />
             </div>}
-            {!this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center' style={{paddingTop:"100px"}}>
+            {!this.state.matches && <div className='col-md-5 d-flex align-items-center justify-content-center code' style={{paddingTop:"100px"}}>
                 <img src={code_lg} alt="" style={{width:"1000px",height:"200px"}} />
             </div>}
         </div>
