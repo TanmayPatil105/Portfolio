@@ -8,9 +8,10 @@ function Type(props) {
         options={{
           strings: [
             "Developer",
-            "Linux Enthusiast",
+            "'Linux Enthusiast'",
             "DevOps",
-            "Open Source Contributor",
+            "Open-Source Contributor",
+            "I love making CLI apps ;)",
           ],
           autoStart: true,
           loop: true,
