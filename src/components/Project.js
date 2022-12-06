@@ -46,7 +46,7 @@ export default class Project extends PureComponent {
                     <Card title={"diff"} description={"Git diff command to compare two files line by line"} img={images['c.png']} link={"https://github.com/TanmayPatil105/diff"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"100px"}}>
-                    <Card title={"Resume Maker"} description={"Resume building app using JavaScript"} img={images['javascript.png']} link={"https://github.com/TanmayPatil105/Resume-Maker"} />
+                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework and MySQL"} img={images['python.png']} link={"https://github.com/TanmayPatil105/event-management-system"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"100px"}}>
                     <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={images['python.png']} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
