@@ -2,7 +2,7 @@
 Future Plans : Use Three.js
 ## Built With
 
-My personal portfolio <a href="https://txnmxy.netlify.app/" target="_blank">Tanmay Patil</a> which features some of my github projects and my technical skills.<br/>
+My personal portfolio <a href="https://txnmxy.netlify.app/" target="_blank">Tanmay Patil</a> (Not at all Professional ;) ) which features some of my github projects and my technical skills.<br/>
 
 This project was built using these technologies.
 
