@@ -46,7 +46,7 @@ export default class Project extends PureComponent {
                     <Card title={"diff"} description={"Git diff command to compare two files line by line"} img={images['c.png']} link={"https://github.com/TanmayPatil105/diff"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"100px"}}>
-                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework and MySQL"} img={images['python.png']} link={"https://github.com/TanmayPatil105/event-management-system"} />
+                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework and MySQL"} img={images['mysql.png']} link={"https://github.com/TanmayPatil105/event-management-system"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"100px"}}>
                     <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={images['python.png']} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
@@ -63,7 +63,7 @@ export default class Project extends PureComponent {
             </div>
             <div className='row'>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}} >
-                    <Card title={"procfetch"} description={"Linux command line utility"} img={images['c++.png']} link={"https://github.com/TanmayPatil105/procfetch"}/>
+                    <Card title={"profetch"} description={"Linux command line utility"} img={images['c++.png']} link={"https://github.com/TanmayPatil105/procfetch"}/>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
                     <Card title={"wifi-cli"} description={"Wifi through command line"} img={images['bash.png']} link={"https://github.com/TanmayPatil105/wifi-cli"} />
@@ -77,18 +77,7 @@ export default class Project extends PureComponent {
                     <Card title={"diff"} description={"Git diff command to compare two files line by line"} img={images['c.png']} link={"https://github.com/TanmayPatil105/diff"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
-                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework(Python) and MySQL"} img={images['javascript.png']} link={"A comprehensive event management system built with Flask Framework(Python) and MySQL,"} />
-                </div>
-                <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
-                    <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={images['python.png']} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
-                    <Card title={"diff"} description={"Git diff command to compare two files line by line"} img={images['c.png']} link={"https://github.com/TanmayPatil105/diff"} />
-                </div>
-                <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
-                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework(Python) and MySQL"} img={images['javascript.png']} link={"A comprehensive event management system built with Flask Framework(Python) and MySQL,"} />
+                    <Card title={"Event Management System"} description={"A comprehensive event management system built with Flask Framework(Python) and MySQL"} img={images['mysql.png']} link={"A comprehensive event management system built with Flask Framework(Python) and MySQL,"} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
                     <Card title={"Authentication System"} description={"QR-CODE based Identity Authentication system"} img={images['python.png']} link={"https://github.com/TanmayPatil105/qrcode-based-authentication-system"} />
