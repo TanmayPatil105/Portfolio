@@ -41,12 +41,16 @@ export default class Random extends PureComponent {
 
   constructor() {
     super()
-    this.state = { matches: window.matchMedia("(min-width: 768px)").matches };
+    this.state = { matches: window.matchMedia("(min-width: 768px)").matches ,reload: false};
   }
 
   componentDidMount() {
-  const handler = e => this.setState({matches: e.matches});
-  window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
+    const handler = e => this.setState({matches: e.matches,reload:false});
+    window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
+    if (this.state.reload === true){
+      window.location.reload();
+      this.setState = { matches: window.matchMedia("(min-width: 768px)").matches ,reload: false};
+    }
   }
 
   render() {
