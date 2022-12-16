@@ -33,10 +33,10 @@ class NavBar extends Component{
             </div>)}
         
             {this.state.matches && <div className="col-md-4 zoom d-flex align-items-center justify-content-center">
-              <a href='/random'><img src={logo_lg} alt="" /></a> 
+              <Link to='/random'><img src={logo_lg} alt="" /></Link> 
             </div>}
             {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
-             <a href="/random"><img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} /></a>
+             <Link to="/random"><img src={logo_lg} alt="" style={{width:"90px",height:"30px"}} /></Link>
             </div>}
           </form>
         </nav>
@@ -45,4 +45,4 @@ class NavBar extends Component{
   }
 }
 
-export default NavBar
+export default NavBar 
