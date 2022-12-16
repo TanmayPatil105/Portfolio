@@ -1,5 +1,5 @@
-## Still in Development 
-Future Plans : Use Three.js
+## Still in Development and will always be
+### Goodluck finding Random things :)
 ## Built With
 
 My personal portfolio <a href="https://txnmxy.netlify.app/" target="_blank">Tanmay Patil</a> (Not at all Professional ;) ) which features some of my github projects and my technical skills.<br/>
