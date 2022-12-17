@@ -55,7 +55,7 @@ export default class Random extends PureComponent {
           <div class='a text-light'>Good luck reading things here!</div>
           <div class='b text-warning'>Loves to Play and Watch Football</div>
           <div class='c text-success'>Autistic Kid</div>
-          <div class='d text-danger'>Weirdo</div>
+          <div class='d text-danger'>such a weirdo fr</div>
           <div class='e text-success'>#BANEnation</div>
           <div class='f text-primary'>{"Thank you Messi for rocking my world ;)"}</div>
           <div class='g text-primary'>likes playing online FPS games</div>
