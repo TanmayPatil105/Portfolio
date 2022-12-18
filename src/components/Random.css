@@ -1,31 +1,43 @@
-div.a {
+div.random {
   position: fixed;
 }
 
-div.b {
-  position: fixed;
+.a {
+  color: #DFCFBE;
 }
-div.c {
-  position: fixed;
+
+.b {
+  color: #88B04B;
 }
-div.d {
-  position: fixed;
+
+.c {
+  color: #B565A7;
 }
-div.e {
-  position: fixed;
+
+.d {
+  color: #45B8AC;
 }
-div.f {
-  position: fixed;
+
+.e {
+  color:  #98B4D4;
 }
-div.g {
-  position: fixed;
+
+.f {
+  color: #3D9970;
 }
-div.h {
-  position: fixed;
+
+.g {
+  color: #FF851B;
 }
-div.i {
-  position: fixed;
+
+.h {
+  color: #85144b;
 }
-div.j {
-  position: fixed;
+
+.i{
+  color: #B10DC9;
+}
+
+.j {
+  color: #AAAAAA;
 }

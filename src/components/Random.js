@@ -52,16 +52,16 @@ export default class Random extends PureComponent {
   render() {
     return (
         <div className="text-success" style={{fontSize:this.state.matches?"50px":"20px",fontFamily:"'M PLUS Code Latin', sans-serif",backgroundColor: 'blue'}}>
-          <div class='a text-light'>Good luck reading things here!</div>
-          <div class='b text-warning'>Loves to Play and Watch Football</div>
-          <div class='c text-success'>Autistic Kid</div>
-          <div class='d text-danger'>such a weirdo fr</div>
-          <div class='e text-success'>#BANEnation</div>
-          <div class='f text-primary'>{"Thank you Messi for rocking my world ;)"}</div>
-          <div class='g text-primary'>likes playing online FPS games</div>
-          <div class='h text-info'>obsessed with my <a href="https://github.com/TanmayPatil105">github</a></div>
-          <div class='i text-info'>linux is better than windows(reminder)</div>
-          <div class='j text-secondary'>Addicted to <a href="https://twitter.com/TanmayFCB">twitter</a></div>
+          <div class='font-weight-bold random a text-light' style={{fontSize:this.state.matches?"45x":"20px"}}>Good luck reading things here!</div>
+          <div class='font-weight-bold random b'>Loves to Play and Watch Football</div>
+          <div class='font-weight-bold random c' style={{fontSize:this.state.matches?"35px":"15px"}}>autistic Kid</div>
+          <div class='font-weight-bold random d'>such a weirdo fr</div>
+          <div class='font-weight-bold random e' style={{fontSize:this.state.matches?"40px":"15px"}}>wannabe gopher</div>
+          <div class='font-weight-bold random f' >{"Thank you Messi for rocking my world :)"}</div>
+          <div class='font-weight-bold random g' style={{fontSize:this.state.matches?"50px":"25px"}}>likes playing online <a href="https://www.youtube.com/watch?v=DMnkwSds_RE">FPS</a> games</div>
+          <div class='font-weight-bold random h' style={{fontSize:this.state.matches?"60px":"40px"}}>obsessed with my <a href="https://github.com/TanmayPatil105">github</a></div>
+          <div class='font-weight-bold random i' style={{fontSize:this.state.matches?"50px":"30px"}}>linux is better than windows(reminder)</div>
+          <div class='font-weight-bold random j'>Addicted to <a href="https://twitter.com/TanmayFCB">twitter</a></div>
         </div>
     )
   }
