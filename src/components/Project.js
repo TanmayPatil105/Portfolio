@@ -63,7 +63,7 @@ export default class Project extends PureComponent {
             </div>
             <div className='row'>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}} >
-                    <Card title={"profetch"} description={"Linux command line utility"} img={images['c++.png']} link={"https://github.com/TanmayPatil105/procfetch"}/>
+                    <Card title={"procfetch"} description={"Linux command line utility"} img={images['c++.png']} link={"https://github.com/TanmayPatil105/procfetch"}/>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center" style={{marginTop:"30px"}}>
                     <Card title={"wifi-cli"} description={"Wifi through command line"} img={images['bash.png']} link={"https://github.com/TanmayPatil105/wifi-cli"} />
