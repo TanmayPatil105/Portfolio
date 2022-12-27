@@ -68,7 +68,7 @@ export default class Random extends PureComponent {
           <div class='random j'><b>Addicted to <a href="https://twitter.com/TanmayFCB">twitter</a></b></div>
           <div class='random k' style={{fontFamily:"'M PLUS Code Latin', sans-serif"}}><b>massively misunderstood :/</b></div>
           {/* <div class='random l'><b>Currently listening to ---</b></div> */}
-          <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>⬅main page</a></b></div>
+          <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>main page</a></b></div>
         </div>
     )
   }
