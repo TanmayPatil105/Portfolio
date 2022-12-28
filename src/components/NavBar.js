@@ -25,21 +25,18 @@ class NavBar extends Component{
               <Link to='/' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Profile</Link>
               <Link to='/learn' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Learning</Link>
               <Link to='/project' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Projects</Link>
-              <Link reloadDocument to='/random' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">About me</Link>
+              <Link reloadDocument to='/random' className="btn btn-lg btn-outline-dark me-3 bg-gradient rounded-pill" type="button">Me</Link>
             </div>)}
-            {!this.state.matches &&  (<div className='mx-1'>
+            {!this.state.matches &&  (<div className='mx-auto'>
               <Link to='/' className="btn btn-sm btn-outline-dark me-2 bg-gradient rounded-pill" type="button">Profile</Link>
               <Link to='/learn' className="btn btn-sm btn-outline-dark me-2 bg-gradient rounded-pill" type="button">Learning</Link>
               <Link to='/project' className="btn btn-sm btn-outline-dark me-2 bg-gradient rounded-pill" type="button">Projects</Link>
-              <Link to='/random' className="btn btn-sm btn-outline-dark bg-gradient rounded-pill" type="button">About me</Link>
+              <Link to='/random' className="btn btn-sm btn-outline-dark bg-gradient rounded-pill" type="button">Me</Link>
             </div>)}
         
             {this.state.matches && <div className="col-md-4 zoom d-flex align-items-center justify-content-center">
-              <Link reloadDocument to='/random'><img src={logo_lg} alt="" /></Link> 
+                  <Link reloadDocument to='/random'><img src={logo_lg} alt="" /></Link> 
             </div>}
-            {/* {!this.state.matches && <div className="mx-auto" style={{marginLeft:"100px"}}>
-             <Link reloadDocument to="/random"><img src={logo_lg} alt="" style={{width:"72px",height:"24px"}} /></Link>
-            </div>} */}
           </form>
         </nav>
       </div>
