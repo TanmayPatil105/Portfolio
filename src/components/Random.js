@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent} from 'react'
 import $ from 'jquery';
-import './Random.css'
-
+import './Random.css';
+import Spotify from './Spotify';
 
 $(document).ready(function(){
   animateDiv('.a');
@@ -40,9 +40,8 @@ function animateDiv(myclass){
 };
 
 
-
 export default class Random extends PureComponent {
-
+  
   constructor() {
     super()
     this.state = { matches: window.matchMedia("(min-width: 768px)").matches }; 
@@ -67,7 +66,9 @@ export default class Random extends PureComponent {
           <div class='random i' style={{fontSize:this.state.matches?"50px":"30px"}}><b>linux is better than windows (reminder)</b></div>
           <div class='random j'><b>Addicted to <a href="https://twitter.com/TanmayFCB">twitter</a></b></div>
           <div class='random k' style={{fontFamily:"'M PLUS Code Latin', sans-serif"}}><b>massively misunderstood :/</b></div>
-          {/* <div class='random l'><b>Currently listening to ---</b></div> */}
+          <div class='random l text-warning'>
+            <Spotify/>
+          </div>
           <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>main page</a></b></div>
         </div>
     )
