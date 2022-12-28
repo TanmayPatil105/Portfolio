@@ -22,8 +22,8 @@ export default function Spotify(props) {
 
   return (
     <>
-        {loading && 'currently listening to nothing 😕'}
-        {!loading && result.isPlaying ? <b>currently listening to <a className="text-warning" href={result.songUrl}>{result.title}</a> 😴</b> : <b>{"currently listening to nothing 😕"}</b>}
+        {(loading || !result.isPlaying ) && 'currently listening to nothing 😕'}
+        {!loading && result.isPlaying && <b>currently listening to <a className="text-warning" href={result.songUrl}>{result.title}</a> 😴</b> }
     </>
   )
 }
