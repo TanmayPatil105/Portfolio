@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import getNowPlayingItem from "./SpotifyAPI";
+import getNowPlayingItem from "../api/SpotifyAPI";
 
 export default function Spotify(props) {
 
