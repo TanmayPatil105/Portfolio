@@ -5,9 +5,9 @@ function Name(props) {
     <div className="d-inline">
       <p style={{fontSize:props.size1,fontFamily:"'M PLUS Code Latin', sans-serif"}}>
         <p style={{fontSize:props.size2,fontFamily:"'M PLUS Code Latin', sans-serif",color:"#ffffff"}}>
-            Hello! 
+            Hello,
         </p>
-         Tanmay here
+         Tanmay here!
       </p>
     </div>
   )

@@ -3,41 +3,41 @@ import React, {PureComponent } from 'react'
 export default class Learn extends PureComponent {
 
     url = [{"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/c/original/COriginal.svg",
-            "alt":"C"}},
+            "alt":"C","used":"https://github.com/TanmayPatil105/diff"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/cplusplus/original/CplusplusOriginal.svg",
-            "alt":"C++"}},
+            "alt":"C++","used":"https://github.com/TanmayPatil105/procfetch"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/python/original/PythonOriginal.svg",
-            "alt":"python"}},
+            "alt":"python","used":"https://github.com/TanmayPatil105/qrcode-based-authentication-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/html5/original/Html5Original.svg",
-            "alt":"html5"}},
+            "alt":"html5","used":"https://github.com/TanmayPatil105/event-management-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/css3/original/Css3Original.svg",
-            "alt":"css3"}},
+            "alt":"css3","used":"https://github.com/TanmayPatil105/event-management-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/javascript/original/JavascriptOriginal.svg",
-            "alt":"javascript"}},
+            "alt":"javascript","used":"https://github.com/TanmayPatil105/Resume-Maker"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/mysql/original/MysqlOriginal.svg",
-            "alt":"mysql"}},
+            "alt":"mysql","used":"https://github.com/TanmayPatil105/event-management-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/postgresql/original/PostgresqlOriginal.svg",
-            "alt":"postgresql"}},
+            "alt":"postgresql","used":"https://github.com/TanmayPatil105/event-management-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/docker/original/DockerOriginal.svg",
-            "alt":"docker"}},
+            "alt":"docker","used":"https://github.com/TanmayPatil105/docker-templates/"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/react/original/ReactOriginal.svg",
-            "alt":"react"}},
+            "alt":"react","used":"https://github.com/TanmayPatil105/Portfolio"}},
             {"img":{"url":"https://user-images.githubusercontent.com/92677342/199328490-0ee522a9-c3f5-43ef-b7cd-4dbedaa95007.png",
-            "alt":"github-actions"}},
+            "alt":"github-actions","used":"https://github.com/TanmayPatil105/procfetch"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/go/original/GoOriginal.svg",
-            "alt":"go"}},
+            "alt":"go","used":"https://github.com/TanmayPatil105/reduce"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/bootstrap/plain/BootstrapPlain.svg",
-            "alt":"bootstrap"}},
+            "alt":"bootstrap","used":"https://github.com/TanmayPatil105/Portfolio"}},
             {"img":{"url":"https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg",
-            "alt":"flask"}},
+            "alt":"flask","used":"https://github.com/TanmayPatil105/event-management-system"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/git/original/GitOriginal.svg",
-            "alt":"git"}},
+            "alt":"git","used":"https://github.com/TanmayPatil105"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/github/original/GithubOriginal.svg",
-            "alt":"github"}},
+            "alt":"github","used":"https://github.com/TanmayPatil105"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/gitlab/original/GitlabOriginal.svg",
-            "alt":"gitlab"}},
+            "alt":"gitlab","used":"https://gitlab.com/Txnmxy"}},
             {"img":{"url":"https://raw.githubusercontent.com/fpoumian/react-devicon/master/src/components/linux/original/LinuxOriginal.svg",
-            "alt":"linux}"}}
+            "alt":"linux}","used":"https://github.com/TanmayPatil105/wifi-cli"}}
             ]   
 
     constructor(props){
@@ -67,7 +67,7 @@ export default class Learn extends PureComponent {
                 {this.state.urls.map((element)=>{ 
                     return  <div className="col-md-3 d-flex align-items-center justify-content-center row">
                                 <div className='d-flex align-items-center justify-content-center zoom'style={{width:"100px",height:"100px",marginTop:"20px"}}>
-                                    <img src={element.img.url} alt={element.img.alt} title={element.img.alt} style={{width:"80px",height:"80px"}} loading="lazy" className='logo'/>
+                                    <a href={element.img.used}><img src={element.img.url} alt={element.img.alt} title={element.img.alt} style={{width:"80px",height:"80px"}} loading="lazy" className='logo'/></a>
                                 </div>
                             </div>
                 })}
