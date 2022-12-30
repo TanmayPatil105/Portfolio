@@ -18,6 +18,7 @@ export default class Project extends PureComponent {
     componentDidMount() {
         const handler = e => this.setState({matches: e.matches});
         window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
+        document.title = "Tanmay | Projects"
     }
 
     render() {
