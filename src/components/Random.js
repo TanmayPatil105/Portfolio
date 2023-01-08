@@ -16,7 +16,8 @@ $(document).ready(function(){
   animateDiv('.j');
   animateDiv('.k');
   animateDiv('.l');
-  animateDiv('.m')
+  animateDiv('.m');
+  animateDiv('.n');
 });
 
 function makeNewPosition(){
@@ -71,6 +72,7 @@ export default class Random extends PureComponent {
             <Spotify/>
           </div>
           <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>main page</a></b></div>
+          <div class='random n' style={{fontFamily:"'M PLUS Code Latin', sans-serif",fontSize:this.state.matches?"35px":"15px"}}><b>good at online conversations (but not irl)</b></div>
         </div>
     )
   }
