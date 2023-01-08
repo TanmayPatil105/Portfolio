@@ -43,7 +43,7 @@ function animateDiv(myclass){
 
 function animateEmbed(myclass){
   var newq = makeNewPosition();
-  $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+  $(myclass).animate({ top: newq[0], left: newq[1] }, 100,  function(){
     animateDiv(myclass);        
   });
   
@@ -81,7 +81,7 @@ export default class Random extends PureComponent {
           </div>
           <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>main page</a></b></div>
           <div class='random n' style={{fontFamily:"'M PLUS Code Latin', sans-serif",fontSize:this.state.matches?"35px":"15px"}}><b>good at online conversations (but not irl)</b></div>
-          <div class='random s'><iframe style={{borderRadius:"12px"}} title="myPlaylist" src="https://open.spotify.com/embed/playlist/47XjpODj1wy8mjrlvbAaWX?utm_source=generator" width={this.state.matches?"100%":"80%"} height={this.state.matches?"152":"120"} frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+          { this.state.matches && <div class='random s'><iframe style={{borderRadius:"12px"}} title="myPlaylist" src="https://open.spotify.com/embed/playlist/47XjpODj1wy8mjrlvbAaWX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div> }
         </div>
     )
   }
