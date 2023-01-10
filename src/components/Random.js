@@ -60,10 +60,9 @@ export default class Random extends PureComponent {
           <div class='random a text-light' style={{fontSize:this.state.matches?"45x":"20px"}}><b>Good luck reading things here!</b></div>
           <div class='random b'><b>loves to play and watch football</b></div>
           <div class='random c' style={{fontSize:this.state.matches?"35px":"15px"}}><b>autistic kid</b></div>
-          <div class='random d'><b>such a weirdo fr</b></div>
           <div class='random e' style={{fontSize:this.state.matches?"40px":"15px"}}><b>wannabe gopher</b></div>
           <div class='random f' style={{fontFamily:"'M PLUS Code Latin', sans-serif"}} ><b style={{fontFamily:"'Chakra Petch', sans-serif"}}>Thank you Messi for rocking my world</b><b> :)</b></div>
-          <div class='random g' style={{fontSize:this.state.matches?"50px":"25px"}}><b>likes playing online <a className='g' href="https://www.youtube.com/watch?v=DMnkwSds_RE">FPS</a> games</b></div>
+          <div class='random g' style={{fontSize:this.state.matches?"50px":"25px"}}><b>likes playing online FPS games</b></div>
           <div class='random h' style={{fontSize:this.state.matches?"60px":"40px"}}><b>obsessed with my <a className='h' href="https://github.com/TanmayPatil105">github</a></b></div>
           <div class='random i' style={{fontSize:this.state.matches?"50px":"30px"}}>linux is better than windows (reminder)</div>
           <div class='random j'><b>Addicted to <a className='j' href="https://twitter.com/TanmayFCB">twitter</a></b></div>
@@ -72,7 +71,6 @@ export default class Random extends PureComponent {
             <Spotify/>
           </div>
           <div class='random m text-light' style={{fontSize:this.state.matches?"40x":"30px"}}><b>⬅️<a href="/" page>main page</a></b></div>
-          <div class='random n' style={{fontFamily:"'M PLUS Code Latin', sans-serif",fontSize:this.state.matches?"35px":"15px"}}><b>good at online conversations (but not irl)</b></div>
         </div>
     )
   }
